@@ -5,22 +5,42 @@ repo we use Python and Hypothesis to work on this kata.
 
 ## Installation instructions
 
-* Install Python3 on your machine:
+* Install Python3 and development packages on your machine. Instructions for Ubuntu/Debian:
 
-     sudo apt install python3
+    ```bash
+    sudo apt install python3
+    sudo apt install python3-venv
+    sudo apt install python-pip
+    ```
 
-* Install pip:
+* Setup local dev environment:
 
-     sudo apt install python-pip
+​           `python3 -m venv .`
 
-* Install pytest:
-    
-     pip install -U pytest
+​           `source ./bin/activate` 
+
+* Install pytest locally:
+
+     ​    `pip3 install pytest`
 
 * Install Hypothesis:
 
-     pip install hypothesis
+     ​    `pip3 install hypothesis`
 
-* Run the tests:
+## Running the tests:
 
-     pytest hash.py --hypothesis-show-statistics
+* Showing hypothesis statistics:
+
+    ```bash
+    pytest hash.py --hypothesis-show-statistics
+    ```
+
+    
+
+* No statistics:
+
+   ```bash
+   pytest hash.py 
+   ```
+   
+   
