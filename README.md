@@ -14,18 +14,18 @@ repo we use Python and Hypothesis to work on this kata.
     ```
 
 * Setup local dev environment:
-
-​           `python3 -m venv .`
-
-​           `source ./bin/activate` 
+    ```bash
+    python3 -m venv .
+    source ./bin/activate
+    ```
 
 * Install pytest locally:
 
-     ​    `pip3 install pytest`
+    `pip3 install pytest`
 
 * Install Hypothesis:
 
-     ​    `pip3 install hypothesis`
+    `pip3 install hypothesis`
 
 ## Running the tests:
 
@@ -34,8 +34,6 @@ repo we use Python and Hypothesis to work on this kata.
     ```bash
     pytest hash.py --hypothesis-show-statistics
     ```
-
-    
 
 * No statistics:
 
