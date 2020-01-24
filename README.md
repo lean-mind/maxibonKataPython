@@ -42,3 +42,16 @@ repo we use Python and Hypothesis to work on this kata.
    ```
    
    
+## Use it on windows
+
+A easy way to use it on windows is using Dockerfile and use the pluging `Remote - Containers` to conect to it.
+
+You only need install de plugin, press the icon:
+
+![](./readme-resources/icon.png)
+
+Select the option to conect to the docker:
+
+![](./readme-resources/menu-options.png)
+
+and follow previous steps. 
